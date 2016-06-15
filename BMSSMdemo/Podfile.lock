@@ -1,0 +1,28 @@
+PODS:
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - Masonry (1.0.1)
+  - Reachability (3.0.0)
+
+DEPENDENCIES:
+  - ASIHTTPRequest
+  - Masonry
+  - Reachability (~> 3.0.0)
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  Reachability: 31e4272bd8378e094beaf6609dc182c85c4e6574
+
+COCOAPODS: 0.37.0
