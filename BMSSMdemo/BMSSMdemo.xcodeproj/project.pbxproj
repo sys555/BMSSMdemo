@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3DF5147B78E91F89203CB770 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5548BD789677947F3DBD493A /* libPods.a */; };
+		F205611C1D6EA048009B0BD3 /* test in Resources */ = {isa = PBXBuildFile; fileRef = F205611B1D6EA048009B0BD3 /* test */; };
 		F24188F41D0FF62400280A40 /* ContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24188F31D0FF62400280A40 /* ContainerView.m */; };
 		F24188F71D0FF64A00280A40 /* BMSSMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24188F61D0FF64A00280A40 /* BMSSMScrollView.m */; };
 		F25F600C1CFF16F80090C5EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F25F600B1CFF16F80090C5EE /* main.m */; };
@@ -46,6 +47,7 @@
 		5548BD789677947F3DBD493A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		668638EACCDDE746DF9D2EE5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E6A56FCA80228F3C591F5516 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F205611B1D6EA048009B0BD3 /* test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test; sourceTree = "<group>"; };
 		F20632021D0AC76700AA57E2 /* MacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
 		F24188F21D0FF62400280A40 /* ContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerView.h; sourceTree = "<group>"; };
 		F24188F31D0FF62400280A40 /* ContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerView.m; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		F25F5FFE1CFF16F80090C5EE = {
 			isa = PBXGroup;
 			children = (
+				F205611B1D6EA048009B0BD3 /* test */,
 				F25F60091CFF16F80090C5EE /* BMSSMdemo */,
 				F25F60231CFF16F80090C5EE /* BMSSMdemoTests */,
 				F25F602E1CFF16F80090C5EE /* BMSSMdemoUITests */,
@@ -353,6 +356,7 @@
 			files = (
 				F25F601A1CFF16F80090C5EE /* LaunchScreen.storyboard in Resources */,
 				F25F60171CFF16F80090C5EE /* Assets.xcassets in Resources */,
+				F205611C1D6EA048009B0BD3 /* test in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
