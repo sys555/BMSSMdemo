@@ -9,7 +9,9 @@
 #import "SystemView.h"
 #import "SystemLabelView.h"
 
-#import "host_info.h"
+#include <mach/host_info.h>
+#include <mach/mach_host.h>
+#include <mach-o/arch.h>
 
 @interface SystemView()
 
@@ -407,7 +409,12 @@
 
 -(NSString*)getSubCpuType{
     host_basic_info_data_t hostinfo;
-    
+    mach_msg_type_number_t infoCount = HOST_BASIC_INFO_COUNT;
+    kern_return_t ret = host_info(mach_host_self(), HOST_BASIC_INFO, (host_info_t)&hostinfo, &infoCount);
+    if(ret != KERN_SUCCESS){
+        return nil;
+    }
+    return hostinfo.cpu_subtype
 }
 
 @end
